@@ -28,7 +28,7 @@ lin = 0; /* initialize variable lin */
 do {
 if (lin > 0) /* check if this is the first loop */
 {
-for (fes = 0; fes < lin; fes++) /* loop to check if previous elements = equal */
+for (fes = 0; fes < lin; fes++) /* loop check if previous el = equal */
 if (strDup[fes] != str[fes])
 return (NULL);
 }
