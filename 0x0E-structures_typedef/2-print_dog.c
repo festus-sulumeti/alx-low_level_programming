@@ -4,10 +4,7 @@
 /**
  * print_dog - prints the contents of a dog struct
  * @d: pointer to struct dog
- *
- * This function takes a pointer to a struct dog and prints out its name,
- * age, and owner (if applicable). If any of these fields are NULL or
- * invalid, it prints a message indicating so. Returns void.
+ * Returns: void.
  */
 
 void print_dog(struct dog *d)
