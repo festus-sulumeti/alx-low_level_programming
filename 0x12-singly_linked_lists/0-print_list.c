@@ -4,8 +4,8 @@
 #include "lists.h"
 
 /**
-* print_list - used in checking the code
-* @h: name of the list in
+* print_list - print elements in a linked list
+* @h: pointer to head first node
 * Return: the number of nodes.
 */
 
