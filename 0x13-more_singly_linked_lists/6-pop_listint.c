@@ -24,5 +24,4 @@ free(new);
 return (number);
 }
 
-return (0);
 }
