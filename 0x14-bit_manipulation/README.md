@@ -1,0 +1,1 @@
+This directory contains examples and explanations of bit manipulation in the C programming language. Bit manipulation is a technique used to manipulate individual bits within a byte or word, allowing for efficient and compact representation of data.
