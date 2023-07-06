@@ -15,13 +15,12 @@ number = n ^ m;
 while (number > 0)
 {
 if ((number & 1) == 1)
-{
+
 count++;
-}
+
 if ((number & 1) == 0)
-{
 break;
-}
+
 number >>= 1;
 }
 return (count);
