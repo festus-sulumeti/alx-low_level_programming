@@ -8,20 +8,16 @@
 */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-unsigned int count = 0;
-unsigned long int number;
+	unsigned int counting = 0;
+	unsigned long int no;
 
-number = n ^ m;
-while (number > 0)
-{
-if ((number & 1) == 1)
+	no = n ^ m;
+	while (no > 0)
+	{
+		if ((no & 1) == 1)
+			counting++;
+		no >>= 1; /*is the same n = n >>1*/
+	}
+	return (counting);
 
-count++;
-
-if ((number & 1) == 0)
-break;
-
-number >>= 1;
-}
-return (count);
 }
