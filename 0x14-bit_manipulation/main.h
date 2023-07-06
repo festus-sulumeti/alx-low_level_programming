@@ -15,5 +15,5 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 
 /* Helping function*/
-void print _num_binary(unsigned long int n);
+void print_num_binary(unsigned long int n);
 #endif
