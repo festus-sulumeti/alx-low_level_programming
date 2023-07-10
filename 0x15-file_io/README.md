@@ -1,0 +1,1 @@
+This directory provides examples and explanations of File I/O operations in the C programming language. File I/O (Input/Output) refers to the operations performed on files, such as reading from or writing to files. Understanding how to work with files is crucial for many applications, as it allows for data persistence and interaction with external resources.
